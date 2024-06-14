@@ -1,0 +1,92 @@
+<!DOCTYPE html> <!--Tag para informação ao navegador que o documento é hmtl-->
+<html lang="pt-br"> <!--Tag de abertura do html-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título</title> <!--Tag para título do documento-->
+    
+</head>
+<body style="background-color:rgb(211, 14, 14);">
+    <h1 style="background-color: darkslategrey;color:tomato">Hello World!</h1> <!--Tag para título principal-->
+    <h2 style="background-color: tomato;">Hello World!</h2>
+    <h6>hello world</h6>
+    <h5>hcheeeeeeebs</h5>
+    <h1 style="font-family: Arial, Helvetica, sans-serif;">cheeeeeebs</h1> <!--como trocar a fonte das letras-->
+    <h4>chebs super great</h4>
+    <p style="font-size: large;">parágrafo, grande lista, paralelepípedo</p> <!--como trocar o tamanho do texto-->
+    <br>
+    <br>
+    <br><!--como colocar um espaço-->
+    <hr> <!--como fazer uma linha no meio do texto-->
+    <p><b>utro paragrafo aqui ++++++ aksjbdaksjba</b>outro paragrafo aqui ++++++ aksjbdaksjba</p> <!--como deixar em negrito-->
+
+    <a href="https://Google.com" target="_blank">Google pesquisar</a> <!--como adicionar link e sites-->
+    <a href="https://torres.rs.gov.br/" target="_blank">site prefeitura de torres</a>
+    
+<ol>
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+    <li>itens</li>
+</ol>
+
+<ul>
+    <li>coisa 1</li>
+    <li>coisa 2</li>
+    <li>truque</li>
+    <li>maça</li>
+    <li>coisa</li>
+    <li>crpedito</li>
+    <li>expor</li>
+
+</ul>
+
+</body> 
+    <!--Códigos importantes HTML:
+        <link rel="stylesheet" href=""> - linkar o arquivo CSS ao HTML
+        <strong></strong> - serve para dar importância em um texto;
+        <pre></pre> - conferir sua funcionalidade;
+        <em><;em> - enfatizar um texto;
+        <mark></mark> - destacar um texto
+        <sub></sub> - conferir sua funcionalidade
+        <del></del> - adiciona uma linha nas palavras ?
+        <q></q> - sinal de quotação entre palavras
+        <blockquote cite= </blockquiote> conferir sua funcionalidade
+        <bdo dir="rtl"></bdo> - conferir sua funcionalidade
+        <abbr title= inserir texto></abbr> - para abreviações em parágrafos
+        <img src="link"> conferir sua funcionalidade, o que é display
+        <img src="smiley.gif" alt="Smiley"> como introduzir um texto se a imagem não estiver disponível
+         text-transform: uppercase - deixa em maísculo
+         text-transform: capitalize - deixa em minúsculo
+         text-indent: númeropx - faz com que um parágrafo tenha récuo de tantos px
+         font-variant: small-caps  - altera a fonte para minúsculo (verificar como funciona)
+         a:hover - verificar funcionalidade
+         a:visited - verificar funcionalidade
+        lint-style-type: - verificar funcionalidade
+        list-style-imagem: - verificar funcionalidade-->
+
+    <!--CÓDIGOS IMPORTANTES CSS:
+        border-radius: 90%;/*como fazer a imagem com borda circular*/
+        font-family: Arial, Helvetica, sans-serif; /*como definir as fontes, exemplo, arial*/
+        font-style: italic;/*como mudar o estilo da fonte, exemplo itálico*/
+        text-decoration: underline; /*Como sublinhar o texto*/
+        text-align: center; /*alinhar escrita*/
+        margin: 0 auto; /*como definir margem*/
+        * {margin: 0 auto;
+            padding: 0;
+            box-sizing: border-box; /*código para não transbordar as caixas*/
+        {background-image:url("paper.gif")} - faz com que o fundo da página seja uma imagem
+        {background-image:url("img_tree.png");
+         background-repeat:repeat-y; - repete uma imagem no fundo da página, o "y" pode ser trocado por "x" para orientação vertical ou horizontal
+        {background-image:url("img_tree.png");
+         background-repeat:no-repeat;
+         background-position:top right; - estas 3 linhas fazem com que uma imagem de fundo de página se repita somente ao topo dela
+        {background-image: url("img_tree.png");
+         background-attachment: fixed;} - estas 2 linhas fazem com que fixe a imagem de fundo de página para que ela não role junto com o mouse
+        border-(definir um lado, right; left; top; bottom;)-style - define um estilo para o lado informado da borda
+        outline-(definir lado) - verificar funcionalidade
+
+        -->
+
+
+</html>

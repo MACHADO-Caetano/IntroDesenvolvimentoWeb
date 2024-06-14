@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+
+.container{
+    background-color: yellow;
+    display: flex;
+    height: 50vh;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 1px solid;
+    font-size: 48px;
+    color: white;
+}
+/*Ponto de quebra para tablet*/
+@media screen and (max-width: 768px) {
+    body{
+            background-color: red;
+    }
+    
+}
+/*Ponto de quebra para celular*/
+@media screen and (max-width: 578px) {
+    body{
+        background-color: gray;
+    }
+}

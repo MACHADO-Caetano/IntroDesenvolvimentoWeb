@@ -1,0 +1,27 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.alinharcaixas{
+    width: 35%;
+    height: 25%;
+    background-color: #d3d3d3;
+    font-size: 20px;
+    text-decoration: underline;
+    border: 2px solid black;
+}
+
+.header{
+    background-color: burlywood;
+}
+
+button{
+    background-color: pink;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 25px;
+    border: solid;
+}

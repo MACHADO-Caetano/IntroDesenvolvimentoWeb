@@ -1,0 +1,20 @@
+*{
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    margin: 20px auto;
+}
+table, th, td{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px 10px;
+}
+table{
+    width: 50%;
+    background-color: pink;
+}
+th{
+    background-color: lightpink;
+    font-size: 20px;
+}

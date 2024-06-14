@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #2e0f23;
+    color: #94ccdb;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav a{
+    color: #94ccdb;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.text h2{
+    color: #f4ff61ff;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.text p{
+    color: #ff9900ff;
+    text-align: justify;
+}
+
+.about img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 30px 0;
+}
+
+section{
+    max-width: 1000px;
+}
+
+.text{
+    padding: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a0c37ff;
+}
+
+.projects{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.proj{
+    padding: 20px;
+    width: 333px;
+    height: 300px;
+}
+
+.proj img{
+    width: 280px;
+    height: 152px;
+    margin: 10px;
+}
+
+.proj h3{
+    color: #f4ff61ff;
+}
+
+.proj p{
+    color: #ff9900ff;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+label, input{
+    color: #f4ff61ff;
+    margin-bottom: 15px;
+}
+
+input, textarea, button{
+    background-color: #ff9900ff;
+    margin: 10px;
+}
+
+.contact{
+    width: 100%;
+}
+
+.contact h2{
+    margin: 20px 0;
+    text-align: center;
+}
+
+input, button, textarea{
+    border-radius: 10px;
+    padding: 10px;
+}
+
+button{
+    background-color: #94ccdb;
+    color: #0a0c37ff;
+    margin: 10px;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+}
+
+i{
+    padding: 10px;
+    color: black;
+}
+
+i:hover{
+    color: black;
+    background-color: white;
+}
+
+footer{
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+@media screen and (max-width:768px){
+    header{
+        flex-direction: column;
+    }
+    header nav{
+        margin-top: 20px;
+    }
+       
+    .about, .projects{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .proj, img, p{
+        align-items: center;
+        max-width: 310px;
+        text-align: justify;
+    }  
+}

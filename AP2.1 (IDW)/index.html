@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AP2 IDW</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+  <header class="bg-black text-white p-3 text-center">
+    <h1>Licitaprende</h1>
+    <p>Aprende de uma vez sobre licitações</p>
+    <div class="offcanvas offcanvas-start bg-dark" id="dem">
+      <div class="offcanvas-header">
+        <h3 class="offcanvas-title text-center text-white">Navegação</h3>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body m-auto d-flex flex-column w-100">
+        <button class="btn btn-secondary p-2 m-2" type="button">
+          <a href="./pag2.html" target="" style="text-decoration: none ; color: white;">Conheça nossas áreas de atuação!</a>
+        </button>
+        <button class="btn btn-secondary p-2 m-2" type="button">
+          <a href="./pag3.html" target="" style="text-decoration: none ; color: white;">Cadastre-se no nosso informativo!</a>
+        </button>
+      </div>
+      
+    </div>
+    <!-- Button to open the offcanvas sidebar -->
+    <button class="btn btn-primary justify-content-start d-flex" type="button" data-bs-toggle="offcanvas"
+      data-bs-target="#dem">
+      Menu Principal
+    </button>
+  </header>
+
+  <main class="bg-dark container-fluid">
+    <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner justify-content-center">
+    <div class="carousel-item active">
+      <img src="./imagens/img1.png" alt="imagem 1" class="d-block w-75 m-auto p-5">
+    </div>
+    <div class="carousel-item">
+      <img src="./imagens/img2.png" alt="Imagem 2" class="d-block w-75 m-auto p-5">
+    </div>
+    <div class="carousel-item">
+      <img src="./imagens/img3.png" alt="Imagem 3" class="d-block w-75 m-auto p-5">
+    </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+    <section class="row mt-5 p-3">
+      <div class="col-lg-6 col-md-6 mt-3 d-flex justify-content-center">
+        <div class="card shadow" style="width:400px">
+          <img class="card-img-top" heigh="260" width="350" src="./imagens/img-edital.png" alt="imagem edital exemplo">
+          <div class="card-body" style="background-color: dimgray;">
+            <h4 class="card-title text-white">O Edital</h4>
+            <p class="card-text text-white">O edital de licitações...</p>
+            <a href="https://torres.rs.gov.br/wp-content/uploads/2023/10/PE-408-RP-ESTRUTURAS-SONORIZACAO-COM-COTA.pdf" target="_blank" class="btn btn-primary bg-black">Veja um exemplo!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mt-3 d-flex justify-content-center">
+        <div class="card shadow" style="width:400px">
+          <img class="card-img-top" heigh="260" width="350" src="./imagens/img-licita.png" alt="imagem edital exemplo">
+          <div class="card-body" style="background-color: dimgray;">
+            <h4 class="card-title text-white">A Lei de Licitações</h4>
+            <p class="card-text text-white">Esta quem rege todo o processo</p>
+            <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiqvaDHmIOCAxVkrZUCHSeUCM4QFnoECBQQAQ&url=https%3A%2F%2Fwww.planalto.gov.br%2Fccivil_03%2Fleis%2Fl8666cons.htm&usg=AOvVaw0G2XVVKEx7RIjjsV1-lWtC&cshid=1697755763257685&opi=89978449"
+              target="_blank" class="btn btn-primary bg-black">Conheça suas ferramentas!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-black text-white text-center p-3">
+    <p>&copy;Todos os direitos reservados, obrigado pela atenção!</p>
+  </footer>
+</body>
+
+</html>

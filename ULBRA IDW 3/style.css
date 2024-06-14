@@ -1,0 +1,21 @@
+h1{
+    
+    background-color:burlywood;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif; /*como definir as fontes, exemplo, arial*/
+    font-style: italic;/*como mudar o estilo da fonte, exemplo itálico*/
+    text-decoration: underline; /*Como sublinhar o texto*/
+    /* Aqui, é somente para texturizar pelo CSS, no arquivo todo, ou seja, tudo o que estiver com a tag mencionada, conforme link no HTML */
+    text-align: center; /*alinhar escrita*/
+    width: max-content;
+    margin: 0 auto; /*como definir margem*/
+}
+hr{
+    
+
+}
+.quadradorosa{ /*<--código para criar uma classe*/
+    background-color: blue;
+    height: 150px;
+    width: 500px;
+} /*Essa classe, cria pequenos estilos que podem ser usados em qualquer parte do código, onde vai ter esse padrão a parte*/

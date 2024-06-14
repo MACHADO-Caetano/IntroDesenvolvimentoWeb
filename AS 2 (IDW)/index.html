@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AS IDW</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+<body style="background-color: bisque;">
+    <header class="header">
+        <h1 class="text-center">Lista de Tarefas</h1>
+    </header>
+    <main class="text-center">
+    
+        <input id="time" type="text">
+        <button type="button" onclick="adicionar()">Adicionar</button>
+        
+        <section class="d-flex p-2 m-2 justify-content-around">
+            <div class="alinharcaixas">Tarefas Pendentes:
+                <ul id="tabelaTimes" >
+                    
+                </ul>
+            </div>
+            <div class="alinharcaixas">Tarefas Concluídas:
+                <ul id="conclusao">
+                </ul>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

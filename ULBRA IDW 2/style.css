@@ -1,0 +1,14 @@
+body{
+    background-color: blueviolet;
+}
+img{
+    width: 200px;
+    border: 6px solid black;
+    border-radius: 90%;/*como fazer a imagem com borda circular*/
+}
+
+.icone{
+    border-radius: 50%;
+    width: 70px;
+    border: none;
+}

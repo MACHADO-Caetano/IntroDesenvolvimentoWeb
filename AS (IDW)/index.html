@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AS Pt 1 - IDW</title>
+    
+</head>
+<body>
+    <h1>AS - PARTE 1</h1>
+
+    <form action="">
+        <label>Insira o primeiro número: </label>
+        <input id="number1" type="number" placeholder="Digite o número:">
+        <br><br>
+        <label>Insira o segundo número: </label>
+        <input id="number2" type="number" placeholder="Digite o número: ">
+        <br><br>
+        <button type="button" onclick="limpar()">Limpar</button>
+        <br><br>
+        <button type="button" onclick="somar()">Somar</button>
+        <button type="button" onclick="diminuir()">Subtrair</button>
+        <button type="button" onclick="multi()">Multiplicar</button>
+        <button type="button" onclick="divi()">Dividir</button>
+        <h2 id="resultado">Resultado: </h2>
+    </form>
+    <hr><br>
+    <form>
+        <label>Insira a nota da AP1: </label>
+        <input id="numum" type="number" placeholder="Digite a nota:" onblur="verificaAP1()"><br><br>
+        <label>Insira a nota da AP2: </label>
+        <input id="numdois" type="number" placeholder="Digite a nota: " onblur="verificaAP2()"><br><br>
+        <label>Insira a nota da AS: </label>
+        <Input id="numtres" type="number" placeholder="Digite a nota: " onblur="verificaAS()"></Input>
+        <br><br>
+        <button type="button" onclick="calcResult()">Calcular resultado.</button>
+        <h2 id="resultado2">Resultado: </h2>
+        <h3 id="aprova">Status: </h3>
+        <br><br>
+        <button type="button" onclick="limpaNota()">Recalcular</button>
+
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

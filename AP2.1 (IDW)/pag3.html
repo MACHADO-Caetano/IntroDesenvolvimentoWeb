@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <header class="bg-black text-white p-3 text-center">
+        <h1>Licitaprende</h1>
+        <p>Aprende de uma vez sobre licitações</p>
+        <div class="offcanvas offcanvas-start bg-dark" id="dem">
+            <div class="offcanvas-header">
+                <h3 class="offcanvas-title text-center text-white">Navegação</h3>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body m-auto d-flex flex-column w-100">
+                <button class="btn btn-secondary p-2 m-2" type="button">
+                    <a href="./pag2.html" target="" style="text-decoration: none ; color: white;">Conheça nossas áreas de atuação!</a>
+                </button>
+                <button class="btn btn-secondary p-2 m-2" type="button">
+                    <a href="./index.html" target="" style="text-decoration: none ; color: white;">Voltar à página inicial.</a>
+                </button>
+            </div>
+
+        </div>
+        <!-- Button to open the offcanvas sidebar -->
+        <button class="btn btn-primary justify-content-start d-flex" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#dem">
+            Menu Principal
+        </button>
+    </header>
+    <main class="bg-dark container-fluid">
+        <section class="row p-3">
+            <div class="col-lg-6 col-md-6 mt-3 d-flex flex-column">
+                <div class="card shadow" style="width:400px">
+                    <button class="btn btn-primary w-100 bg-black" data-bs-toggle="collapse"
+                        data-bs-target="#medu">Estamos à disposição!</button>
+                    <div id="medu" class="collapse">
+                        Nossos Contatos:
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam quibusdam assumenda dolor
+                        facere nobis eius voluptatem ut tempore doloremque, nulla, amet perspiciatis molestias
+                        praesentium recusandae quam explicabo ipsam illo ducimus.
+                    </div>
+                    <img class="card-img-top" heigh="260" width="350" src="./imagens/empresa.jpeg"
+                        alt="imagem edital exemplo">
+                    <div class="card-body" style="background-color: dimgray;">
+                        <p class="text-white"> Sobre nossa Empresa: Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Sequi soluta provident corrupti sed obcaecati odit dolorum cumque nihil nulla. Facilis a
+                            itaque ad fugiat c</p>
+                        <!-- <a href="https://torres.rs.gov.br" target="_blank" class="btn btn-primary bg-black d-flex flex-column mt-5">Conheça a nossa sede!</a> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 text-white d-flex flex-column">
+                <label class="form-label" for="">Nome: </label>
+                <input class="form-control" type="text">
+                <label class="form-label" for="">E-mail:</label>
+                <input class="form-control" type="email">
+                <label class="form-label" for="">Telefone:</label>
+                <input class="form-control" type="tel">
+                <label class="form-label">Envie seu feedback! Adoraríamos ouvir você!</label>
+                <textarea placeholder="Escreva aqui!" class="form-control" cols="30" rows="10"></textarea>
+                <button class="btn btn-primary mt-3 w-100">Enviar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-black text-white text-center p-3">
+        <p>&copy;Todos os direitos reservados, obrigado pela atenção!</p>
+    </footer>
+</body>
+</html>

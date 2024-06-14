@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 1500px;
+    /*background-image: url(projeção\ imagerm\ de\ funo.png);*/
+    background-color: gray;
+}
+
+.box1{
+    width: 2%;
+    height: 1500px;
+    background-color: black;
+}
+
+.box{
+    background-color: black;
+    width: 100%;
+    height: 25px;
+}
+
+.semibox{
+    background-color: #2e0f23;
+    width: 98%;
+    height: 25px;
+    float: right;
+}
+.semibox span{
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.box2{
+    background-color: #2e0f23;
+    width: 98%;
+    height: 25px;
+    float: right;
+    
+}
+.box2 span{
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.minibox1{
+    width: 50%;
+    height: 30px;
+    background-color: red;
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+.minibox1 img{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
